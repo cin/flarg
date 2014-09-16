@@ -12,10 +12,10 @@ public class FlargActivity extends AndroidApplication {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-            Texture.setEnforcePotImages(false);
-			AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
-			config.useGL20 = true;
-			initialize(new Flarg(), config);
+        super.onCreate(savedInstanceState);
+        Texture.setEnforcePotImages(false);
+        AndroidApplicationConfiguration config = new AndroidApplicationConfiguration();
+        config.useGL20 = true;
+        initialize(new Flarg(), config);
 	}
 }
